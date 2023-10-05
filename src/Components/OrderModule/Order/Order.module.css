@@ -1,0 +1,11 @@
+.order{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.order:hover{
+    color: rgb(191, 190, 190);
+}

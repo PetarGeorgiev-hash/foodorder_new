@@ -1,0 +1,6 @@
+@media screen and (max-width: 390px) {
+    .orderImg{
+        height: 7rem;
+        width: 7rem;
+    }
+  }

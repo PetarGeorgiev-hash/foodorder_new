@@ -1,0 +1,32 @@
+.orderModule{
+    min-height: 20rem;;
+    width: 20rem;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 6px;
+    border: 1px solid black;
+    transform: translate(-50%, -80%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.closeBtn{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    background: #d23131;
+    margin: 2rem;
+    cursor: pointer;
+}
+.closeBtn:hover{
+    background: #ea4242;
+}
+
+.noItems{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 0.3rem;
+}
+.cardForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.cardForm button{
+    padding: 0.1rem 0.6rem;
+    background-color: #505050;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.cardForm button:hover{
+    background-color: #6f6f6f;
+}
+.cardForm input[type=number]{
+    border-radius: 6px;
+    border: 1px solid #505050;
+}
